@@ -62,8 +62,8 @@ WrappedListComponent.propTypes = {
 
 WrappedListComponent.defaultProps = {
   items: [
-    { text: "Abhishek" },
-    { text: "Choudhary" },
+    { text: "Abhishek",id:1 },
+    { text: "Choudhary",id:2},
   ],
 };
 
