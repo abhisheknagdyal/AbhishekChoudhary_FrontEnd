@@ -1,6 +1,6 @@
 Q.1. Explain what the simple List component does?
 
-The list react component renders a list of items and take array as a props and the each item is text of type String. This renders a list of items  items as <li> and each using SingleListItem which is a memorized version of WrappedSinglelistItem, which takes different props like index, isSelected, onClickhandler, text. Upon click an item it get selected and changes color to green and changes to red if not. This functionality is being checked by a Boolean value isSelected and each item has a different index and a required text.
+The list react component renders a list of items and take array as a props and the each item is text of type String. This renders a list of items  items as li and each using SingleListItem which is a memorized version of WrappedSinglelistItem, which takes different props like index, isSelected, onClickhandler, text. Upon click an item it get selected and changes color to green and changes to red if not. This functionality is being checked by a Boolean value isSelected and each item has a different index and a required text.
 
 Q.2. What problems / warnings are there with code?
 
